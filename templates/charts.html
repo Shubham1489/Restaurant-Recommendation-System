@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Charts</title>
+</head>
+<body>
+    <h1>Restaurant Charts</h1>
+
+    <!-- Home Button -->
+    <a href="/" style="text-decoration: none; padding: 10px; background-color: #4CAF50; color: white; border-radius: 5px; font-size: 16px;">Home</a>
+
+    <!-- Image Display -->
+    <div>
+        <h3>Rating Distribution</h3>
+        <img src="{{ url_for('static', filename='rating_distribution.png') }}" alt="Rating Distribution">
+    </div>
+
+    <div>
+        <h3>Top 5 Cuisines</h3>
+        <img src="{{ url_for('static', filename='top_cuisines.png') }}" alt="Top 5 Cuisines">
+    </div>
+
+</body>
+</html>
